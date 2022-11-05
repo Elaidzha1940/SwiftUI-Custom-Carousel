@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//Nov 5
+
 struct Home: View {
     ///To capture the current tab...
     @State var selectedTab: Peaky = peakys [0]
@@ -71,10 +73,16 @@ struct Home: View {
                         
                     }
                     .frame(height: UIScreen.main.bounds.height / 2.2)
+                    
+                    Text(selectedTab.title)
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .padding(.top, 5)
+                        .padding(.bottom)
                 }
                 .padding(.top)
                 .padding(.horizontal, 10)
-                .padding(.bottom)
+                .padding(.bottom, 5)
                 .background(Color.white)
                 .cornerRadius(10)
                 .padding(.horizontal, 15)
