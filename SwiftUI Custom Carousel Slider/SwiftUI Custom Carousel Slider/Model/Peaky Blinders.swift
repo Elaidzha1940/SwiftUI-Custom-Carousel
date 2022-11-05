@@ -26,4 +26,4 @@ var peakys = [
     Peaky(image: "L1", title: "Tommy Shelby"),
     
 ]
-
+///Images are uploaded
