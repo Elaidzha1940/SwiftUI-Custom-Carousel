@@ -63,7 +63,7 @@ struct Home: View {
                                     .frame(width: frame.width - 10, height: frame.height,
                                            alignment: .center)
                                     .cornerRadius(10)
-                                   .tag(peaky)
+                                  .tag(peaky)
                             }
                         }
                         
